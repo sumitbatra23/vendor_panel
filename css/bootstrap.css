@@ -1,0 +1,85 @@
+
+/*Bootstrapping Up!*/
+
+@media screen and (max-width: 768px){
+	html, body{
+		background-size: 10px 600%;
+	}
+	.sidebar{
+		width: 90%;
+		position: static;
+		float: none;
+		height: auto;
+		margin-left: 5%;
+		border-right: 0px;
+	}
+
+	#img_round{
+		width: 50%;
+	}
+
+	.cell{
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto; 
+	}
+
+	.order_pro{
+		float: none;
+		width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.section li{
+		width: 40%;
+		margin-left: 5%;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.head .view{
+		margin-top: 3.5%;
+	}
+
+	.framed{
+		width: 88%;
+		margin-left: 5%;
+	}
+
+	.font{
+		font-size: 2.8em;
+	}
+
+	.product{
+		margin-right: auto;
+		margin-left: auto;
+		width: 70%;
+		float: none;
+	}
+
+	.recent_prod{
+		float: none;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.carousel-item, .carousel{
+		margin-top: 0;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+	html, body{
+		background-size: 10px 400%;
+	}
+	.section li a{
+	font-size: 0.7em;
+	}
+
+	.framed {
+		width: 65%;
+	}
+}
